@@ -1,0 +1,29 @@
+#container {
+  display: flex;
+  border-style: solid;
+  margin: 2% 20%;
+  height: 600px;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+#container > div {
+  height: 40%;
+  width: 100%;
+  color: white;
+  /*To center the text using flex: */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#red {
+  background-color: red;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#green {
+  background-color: green;
+}

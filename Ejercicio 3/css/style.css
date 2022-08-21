@@ -1,0 +1,28 @@
+#container {
+  display: flex;
+  border-style: solid;
+  margin: 2% 20%;
+  height: 150px;
+  justify-content: space-between;
+}
+
+#container > div {
+  height: 100%;
+  width: 15%;
+  color: white;
+  /*To center the text using flex: */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#red {
+  background-color: red;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#green {
+  background-color: green;
+}
